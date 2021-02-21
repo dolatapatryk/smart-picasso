@@ -2,33 +2,33 @@
 
 
 ## How to run the project
-First of all clone repository.
 
-### REST API
+### Prerequisites
+ - Computer with Windows/Linux/MacOS system.
+ - Python 3.7+
+ - PIP
+ - terminal
+ - cloned repository
+
+### REST API - server
 `cd rest-app`
 
-`pip3 install -r requirements.txt`
+`pip install -r requirements.txt`
 
-`python3 manage.py makemigrations`
+`python manage.py makemigrations`
 
-`python3 manage.py runserver`
+`python manage.py runserver`
 
 To run tests:
 
-`python3 manage.py test`
+`python manage.py test`
 
 ### Client app
 `cd client`
 
-`pip3 install -r requirements.txt`
-
-`python3 app.py`
-
-
-### Gestures module
-`cd gestures`
-
 `pip install -r requirements.txt`
 
-`python gesture_recognition.py `
+`python app.py`
+
+You have to run server before running client!
 
